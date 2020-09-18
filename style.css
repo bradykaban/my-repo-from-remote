@@ -1,19 +1,23 @@
 body {
-    width: 100%;
-    margin: 30px;
-    background-color: antiquewhite;
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   background-color: antiquewhite;
+   font-family: Arial, Helvetica, sans-serif;
  }
   
  #example-container{
-    max-width: 300px;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 6px;
+   max-width: 300px;
+   margin: 80px auto;
+   background-color: white;
+   border: 1px solid gray;
+   border-radius: 6px;
  }
   
  #example-image{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 50%;
  }
   
  #example-name{
@@ -23,6 +27,8 @@ body {
  #footer {
    width: 100%;
    height: 50px;
+   position: absolute;
+   bottom: 0;
    line-height: 50px;
    background-color: burlywood;
    text-align: center;
